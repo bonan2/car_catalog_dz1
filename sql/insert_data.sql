@@ -1,4 +1,4 @@
-INSERT INTO cars (brand, model, year, color, price) VALUES 
+INSERT INTO cars (brand, model, year, color, price) VALUES
 
 ('Toyota', 'Camry', 2020, 'Silver', 1500000.00), 
 
