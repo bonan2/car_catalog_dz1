@@ -9,7 +9,7 @@ FROM cars
 WHERE price > (SELECT AVG(price) FROM cars)
 ORDER BY year DESC;
 
--- Запрос 2: Статистика по годам выпуска (количество, мин/макс цена)
+--  Запрос 2: Статистика по годам выпуска (количество, мин/макс цена)
 SELECT 
     year,
     COUNT(*) AS "Количество_машин",
